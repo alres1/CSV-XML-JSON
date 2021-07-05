@@ -117,10 +117,10 @@ public class Main {
     public static void main(String[] args) {
 
         String[] columnMapping = {"id", "firstName", "lastName", "country", "age"};
-        String fileCSV = "C:/Users/reshetnakam/IdeaProjects/CSV-JSON/src/main/java/ru/netology/data.csv";
-        String fileOutput = "C:/Users/reshetnakam/IdeaProjects/CSV-JSON/src/main/java/ru/netology/data.json";
-        String fileXML = "C:/Users/reshetnakam/IdeaProjects/CSV-JSON/src/main/java/ru/netology/data.xml";
-        String fileOutput2 = "C:/Users/reshetnakam/IdeaProjects/CSV-JSON/src/main/java/ru/netology/data2.json";
+        String fileCSV = "src/main/java/ru/netology/data.csv";
+        String fileOutput = "src/main/java/ru/netology/data.json";
+        String fileXML = "src/main/java/ru/netology/data.xml";
+        String fileOutput2 = "src/main/java/ru/netology/data2.json";
 
         //CSV-JSON
         List<Employee> list = parseCSV(columnMapping, fileCSV);
